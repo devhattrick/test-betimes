@@ -1,0 +1,13 @@
+git help => ดูว่ามีคำสั่งอะไรบ้าง?
+git init => Create an empty local Git repository สร้าง git เปล่าๆขึ้นมาให้กับ project งานของเรา
+git add =>  เพิ่มไฟล์ที่มีการเปลี่ยนแปลงก่อนเพื่อจะ commit
+git commit -m “commit message” => บันทึกการเปลี่ยนแปลงการทำงานพร้อมกับระบุเนื้อหานั้น ใน commit message”
+git commit --amend -m "New commit message " => แก้ไข commit message ที่ commit นั้นๆ 
+git fetch => ใช้ตรวจสอบว่าไฟล์ ในlocal กับremote มีความแตกต่างกันหรือไม่
+git pull => ดึง file จาก remote มายัง local เพื่อทำงานกับ project นั้นต่อไป
+git push => upload file จาก local ไป remote repository
+git merge => รวม branch เข้าด้วยกัน
+git log => Show commit logs(commit history)แสดงประวัติที่เคย commit ไป
+git status => ใช้สำหรับตรวจสอบว่ามีไฟล์ไหนที่ยังไม่ได้ add หรือมีการเปลี่ยนแปลงแล้วยังไม่ถูกจัดการบ้าง
+git config => การตั้ง config เช่น user หรือ email
+git reset => การย้อนกลับไปสภาพเดิม ก่อน add เข้า stage
