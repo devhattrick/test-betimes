@@ -1,4 +1,3 @@
-// 3
    SELECT 
      tb_title.title_name_th,
      tb_user.first_name,
