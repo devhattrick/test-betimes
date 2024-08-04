@@ -11,4 +11,6 @@
  JOIN 
      tb_title ON tb_user.titleid = tb_title.titleid
  JOIN 
-     tb_programming_language ON tb_user.programmingid = tb_programming_language.id;
+     tb_programming_language ON tb_user.programmingid = tb_programming_language.id
+WHERE 
+    tb_user.age < 25;
